@@ -1,0 +1,7 @@
+#! /bin/bash 
+# 此脚本将拷贝C++服务器下最新的脚本到指定目录下并执行
+for i in {1..2};do
+        cp /usr/base-ins.sh
+        cd
+        ./base-ins.sh start
+done
